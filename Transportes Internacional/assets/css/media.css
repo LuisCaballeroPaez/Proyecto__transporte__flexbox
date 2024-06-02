@@ -1,0 +1,52 @@
+/* Media query para tablets y dispositivos más pequeños */
+@media (max-width: 768px) {
+    .navbar__container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .navbar__content {
+        flex-direction: column;
+    }
+  
+    .navbar__content li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+  
+    .testimonials__item {
+        margin-bottom: 30px;
+    }
+  
+    .persona {
+      width: 100%;
+    }
+  
+    .galeria__img {
+      width: 50%; 
+    }
+  
+    .contact {
+      flex: 1 1 100%;
+    }
+  
+  
+  }
+  
+  /* Media query para laptops y desktops */
+  @media (min-width: 1024px) {
+    .testimonials__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+  
+    .testimonials__item-body {
+        margin-left: 20px;
+    }
+  
+    .contact {
+      flex: 1 1 48%;
+    }
+  }
